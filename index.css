@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#top-section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.tp-sec-common {
+    width: 50%;
+    padding-left: 7%;
+}
+
+#tp-welcome {
+    margin-bottom: 35px;
+}
+
+#tp-sec-left {
+    margin-top: 50px;
+}
+
+#tp-sec-left h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+#tp-sec-left h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+#tp-sec-left p {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+#hire-me-btn {
+    text-decoration: none;
+    padding: 6px 30px;
+    color: white;
+    background-image: linear-gradient(orangered, orange);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#name-tp {
+    color: orangered;
+}
+
+#tp-sec-right {}
+
+#tp-sec-right img {
+    width: 90%;
+}
