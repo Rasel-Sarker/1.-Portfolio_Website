@@ -7,58 +7,91 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#top-section {
+.display-flex {
     display: flex;
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+}
+
+.display-flex-width55 {
+    width: 55%
+}
+
+.display-flex-width45 {
+    width: 45%;
+}
+
+.sec-bothside-padding {
     padding: 0 5%;
 }
 
-.tp-sec-common {
-    width: 50%;
-    /* padding-left: 7%; */
+#top-section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 #tp-welcome {
     margin-bottom: 35px;
 }
 
-#tp-sec-left {
-    margin-top: 50px;
-    margin-right: 70px;
+.margin-right80 {
+    margin-right: 80px;
 }
 
-#tp-sec-left h1 {
+#tp-sec-left {
+    margin-top: 50px;
+    margin-right: 80px;
+    width: 45%;
+}
+
+.first-heading {
     font-size: 50px;
     text-transform: capitalize;
 }
 
-#tp-sec-left h2 {
+.second-heading {
     margin-top: 30px;
     margin-bottom: 20px;
     text-transform: capitalize;
 }
 
-#tp-sec-left p {
+#tp-sec-left h2 {}
+
+.sec-description {
     text-align: justify;
     margin-bottom: 30px;
 }
 
-#hire-me-btn {
+.common-btn {
     text-decoration: none;
     padding: 6px 30px;
     color: white;
     background-image: linear-gradient(orangered, orange);
     border-radius: 5px;
     margin-top: 30px;
+    text-transform: capitalize;
 }
 
 #name-tp {
     color: orangered;
 }
 
-#tp-sec-right {}
+#tp-sec-right {
+    width: 55%;
+}
+
+.sec-cmn-img {
+    width: 100%;
+}
 
 #tp-sec-right img {
     width: 100%;
+}
+
+.section-btm-margin {
+    margin-bottom: 100px;
+}
+
+#dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
