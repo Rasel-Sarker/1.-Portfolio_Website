@@ -112,6 +112,10 @@ body {
     text-align: justify;
 }
 
+#experience {
+    margin-top: 150px;
+}
+
 .experience {
     width: 40%;
     margin-left: 5%;
